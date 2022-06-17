@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f2f2f2;
+  color: white;
+  margin-top: 150px;
+  margin-bottom: auto;
+}
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+main {
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 100vh;
+  border-radius: 5px;
+  height: auto;
+  margin-top: 150px;
+  margin-bottom: auto;
+}
+.sedans {
+  background-color: #e28525;
+  padding: 3em;
+  border-radius: 10px 0 0 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.suvs {
+  background-color: #016972;
+  padding: 3em;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.luxury {
+  background-color: #00413f;
+  padding: 3em;
+  border-radius: 0 10px 10px 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#sedansbtn {
+  border-color: #e28525;
+  border-radius: 12px;
+  background-color: white;
+  color: #e28525;
+  padding: 10px;
+}
+
+#sedansbtn:hover {
+  cursor: pointer;
+  background-color: #e28525;
+  color: rgb(255, 255, 255);
+
+  border-color: rgb(255, 255, 255);
+}
+
+#suvsbtn {
+  border-color: #016972;
+  border-radius: 12px;
+  background-color: white;
+  color: #016972;
+  padding: 10px;
+}
+
+#suvsbtn:hover {
+  cursor: pointer;
+  background-color: #016972;
+  color: rgb(255, 255, 255);
+
+  border-color: rgb(255, 255, 255);
+}
+
+#luxurybtn {
+  border-color: #00413f;
+  border-radius: 12px;
+  background-color: white;
+  color: #00413f;
+  padding: 10px;
+}
+
+#luxurybtn:hover {
+  cursor: pointer;
+  background-color: #00413f;
+  color: rgb(255, 255, 255);
+
+  border-color: rgb(255, 255, 255);
+}
